@@ -1,14 +1,15 @@
 {
-    "version": "0.5.4",
+    "version": "0.5.5",
     "description": "Local AI coding orchestration with council planning and human-gated PRs",
     "homepage": "https://www.looptroop.ovh/",
     "license": "MIT",
-    "url": "https://github.com/looptroop-ai/LoopTroop/releases/download/v0.5.4/looptroop-0.5.4-bundle.tar.gz",
-    "hash": "dc5c0caea0c0ebd10491b32854452fc807ff966b91f50b2c0abcf8de56c17b5a",
+    "url": "https://github.com/looptroop-ai/LoopTroop/releases/download/v0.5.5/looptroop-0.5.5-bundle.tar.gz",
+    "hash": "95dbd9262a5739e91ec06ec1b3caeb0709adecf3107f50c284f9c7ecb141bc61",
     "extract_dir": "looptroop",
     "depends": [
         "nodejs-lts",
-        "git"
+        "git",
+        "gh"
     ],
     "bin": [
         [
